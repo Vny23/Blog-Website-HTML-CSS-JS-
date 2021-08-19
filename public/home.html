@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog : </title>
+    <title>Blog : Homepage</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/editor.css">
-    <link rel="stylesheet" href="css/blog.css">
 
 </head>
 <body>
-
+    
     <nav class="navbar">
         <img src="img/logo.png" height="50" width="50" class="logo" alt="">
         <ul class="links-container">
@@ -20,23 +19,22 @@
             <li class="link-item"><a href="/editor" class="link">editor</a></li>
         </ul>
     </nav>
-    
-    <div class="banner"></div>
 
-    <div class="blog">
-        <h1 class="title">Blog Title...</h1>
-        <p class="published"><span>published at - </span></p>
-        <div class="article">
-            
+    <header class="header">
+        <div class="content">
+            <h1 class="heading">
+                <span class="small">welcome in the world of</span>
+                blog
+                <span class="no-fill">writing</span>
+            </h1>
+            <a href="/editor" class="btn">write a blog</a>
         </div>
-    </div>
-
-    <h1 class="sub-heading">Read more</h1>
+    </header>
 
     <!-- blog section -->
     <section class="blogs-section">
         <div class="blog-card">
-            <img src="img/header.png" class="blog-image" alt="">
+            <img src="img/img1.png" class="blog-image" alt="">
             <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
             <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
             <a href="/" class="btn dark">read</a>
@@ -48,6 +46,6 @@
 
     <script src="js/firebase.js"></script>
     <script src="js/home.js"></script>
-    <script src="js/blog.js"></script>
+
 </body>
 </html>
